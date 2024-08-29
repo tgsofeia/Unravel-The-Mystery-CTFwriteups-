@@ -3,7 +3,7 @@ My first CTF write-ups. Go easy on me, I’m still learning ( ͡❛ ω ͡❛).
 
 
 
-Osint
+**Osint**
 
 1. Yesterday is history
    
