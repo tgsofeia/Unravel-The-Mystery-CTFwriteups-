@@ -16,7 +16,7 @@ So, now we already have the account name and using intel techniques to find any 
 ![image](https://github.com/user-attachments/assets/58d8af70-8965-428d-a10f-289f4c20619d)
 
 Found the code (base 64) and try decoding it using cyber chef. <br/>
-_Flag: PROC{73T1T80}_
+> _Flag: PROC{73T1T80}_
 
 ### 2.	OSINT-101
 
@@ -32,7 +32,7 @@ Okay! Found another clue on her Instagram page.
 
 Copy and paste it on dcode website and now we know it was ROT8000 cipher.
 
-_Flag: PROC{3zpz_l3m0n_squ33zy}_
+> _Flag: PROC{3zpz_l3m0n_squ33zy}_
 
 ### 3.	Hideout#1
 
@@ -51,7 +51,7 @@ Decode this and get the first flag.
 
 ![image](https://github.com/user-attachments/assets/1d448a89-b134-462b-a923-04b5528fc9af)
 
-_Flag:  PROC{Russ14n_H4ck3r_D4b3st}_
+> _Flag:  PROC{Russ14n_H4ck3r_D4b3st}_
 
 ### 4.	Hideout#2
 
@@ -71,7 +71,7 @@ There’s nothing on his profile, try again and found his following which is kor
 ![image](https://github.com/user-attachments/assets/ad94e0cd-f6fb-455c-860d-289798bdc1c3)
 
 Decode the message and get the next flag... wohoo </br>
-_Flag: PROC{k0r34nh4ck3r_n3wfr13nd}_
+> _Flag: PROC{k0r34nh4ck3r_n3wfr13nd}_
 
 ### 5.	Hideout#3
 
@@ -84,6 +84,80 @@ Try to find the dealer on google and find this picture in the reviews section.
 ![image](https://github.com/user-attachments/assets/e5e01a4e-07a4-4c14-830c-c2fd0c72af5f)
 
 There’s code on this picture. Decode and get the flag. </br>
-_Flag: PROC{W3lc0m3_T0_0uR_H1d30ut}_
+> _Flag: PROC{W3lc0m3_T0_0uR_H1d30ut}_
 
 ## Cryptography
+
+### 1.	All about that Base
+
+![image](https://github.com/user-attachments/assets/cc466b26-c2e4-4b03-9035-b319a812b9df)
+
+Download the txt file.
+
+![image](https://github.com/user-attachments/assets/fda113e2-0117-47a8-8a9a-7e1d3894bf45)
+
+Copy it on cyberchef and you will get the flag.
+
+![image](https://github.com/user-attachments/assets/a18ab3ab-d620-4d83-bbe2-93a0f80517dd)
+
+> _Flag: PROC{l4y3rs_0f_b4s3s}_
+
+### 2.	SHIK SHAK SHOK
+
+![image](https://github.com/user-attachments/assets/99b3488c-f4bf-4b8b-94bd-f50f51f53987)
+
+Download the image and u will see that the image is used tic tac toe code. </br>
+Try to decode it using dcode website. U will find it was a shik shak shok lyrics. </br>
+But somehow there’s wrong spelling on the lyrics. So, that was the flag.
+
+> _Flag: PROC{TICTACTOE}_
+
+### 3.	That’s it??
+
+![image](https://github.com/user-attachments/assets/ca8a86a3-5d5a-4c08-a476-587d1eeb7c53)
+
+Download the txt file.
+
+![image](https://github.com/user-attachments/assets/0d2ed582-130f-46ee-a1ae-c8688a739359)
+
+Get this code but not really what is this? so try to identify this using dcode and get the answer. It was brainfuck code. Get the brainfuck interpreter and decode it.
+
+![image](https://github.com/user-attachments/assets/1d4b0714-8900-4201-9bc4-8c5b353f1e8c)
+
+So, it is base64 and decode it using cyberchef. And get this.
+
+![image](https://github.com/user-attachments/assets/ecefca7c-10c8-4a63-af00-3dcc76b2c5b3)
+
+Identify it and it was JSFuck and decode it using dcode. Got the flag. </br>
+> _Flag: PROC{3S0t3r1c_1s_th3_w4yy}_
+
+## Web Exploitation
+
+### 1.	Feedback Form
+
+![image](https://github.com/user-attachments/assets/868d937d-e853-4cfe-938a-25195e5f8f60)
+
+Click the link.
+
+![image](https://github.com/user-attachments/assets/db76dede-a186-443a-b1a9-54f42628c4a9)
+
+> _Flag: PROC{XSS_f4ls3_f33dback}_
+
+### 2.	Biskut Sedap
+
+![image](https://github.com/user-attachments/assets/c76aeb69-c40f-416c-8e29-0af911b60c9d)
+
+Inspect it.
+> _Flag: PROC{0re0_c00kies_t3rb4ik}_
+
+### 3.	Penyimpan Rahsia
+
+![image](https://github.com/user-attachments/assets/540d3375-083b-4ac0-ad3c-bdde922940f6)
+
+Click the link. </br>
+Try to inspect it but got nothing. Maybe try to use robots.txt and get this.
+
+![image](https://github.com/user-attachments/assets/ee1c3cd6-758e-4b03-b6ed-3e3cc687a729)
+
+> _Flag: PROC{r0b0ts_peny1mp4n_r4hsi4}_
+
